@@ -130,7 +130,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\OneDrive - Universidad Tecnológica de Honduras\Documentos\Librerias\glad\src\glad.c" />
-    <ClCompile Include="Escudo3D.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="lighting.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="modelLoader.cpp" />
+    <ClCompile Include="performance.cpp" />
+    <ClCompile Include="shaders.cpp" />
+    <ClCompile Include="textureLoader.cpp" />
+    <ClCompile Include="ui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="lighting.h" />
+    <ClInclude Include="modelLoader.h" />
+    <ClInclude Include="performance.h" />
+    <ClInclude Include="shaders.h" />
+    <ClInclude Include="textureLoader.h" />
+    <ClInclude Include="ui.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
